@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.6"
 django = "^2.2"
 gunicorn = "^19.9"
+whitenoise = "^4.1"
 
 [tool.poetry.dev-dependencies]
 

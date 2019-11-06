@@ -34,8 +34,16 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "0.3.0"
 
+[[package]]
+category = "main"
+description = "Radically simplified static file serving for WSGI applications"
+name = "whitenoise"
+optional = false
+python-versions = "*"
+version = "4.1.4"
+
 [metadata]
-content-hash = "18cb115a79483c88d579a6f844bc9159f021b2c6786a73d18f63fae0b39978d7"
+content-hash = "6da37c46b9f1e9d57f5b5ee6027e4091b52b165031bff093623d0afe439340ff"
 python-versions = "^3.6"
 
 [metadata.hashes]
@@ -43,3 +51,4 @@ django = ["16040e1288c6c9f68c6da2fe75ebde83c0a158f6f5d54f4c5177b0c1478c5b86", "8
 gunicorn = ["aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471", "fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3"]
 pytz = ["1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d", "b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"]
 sqlparse = ["40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177", "7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"]
+whitenoise = ["22f79cf8f1f509639330f93886acaece8ec5ac5e9600c3b981d33c34e8a42dfd", "6dfea214b7c12efd689007abf9afa87a426586e9dbc051873ad2c8e535e2a1ac"]
